@@ -69,7 +69,7 @@ div.contato {
   height: 20px;
   font-weight: bold;
   color: black;
-  position: fixed;
+  position: relative;
 }
 
 #copyright {
@@ -154,34 +154,9 @@ div.contato {
   flex: 2;
 }
 
-.main {
-  color: black;
-  padding: 20px;
+#carouselExampleAutoplaying{
+  width: 50%;
+  height: 50%;
   display: flex;
-  position: absolute;
-  flex-direction: column;
   align-items: center;
-  margin: 5% 10% 10% 25%;
-}
-
-#button {
-  font-size: 1.2em;
-    background: rgb(146, 84, 8);
-    border-radius: 10px;
-    margin-bottom: 1em;
-    color: #fff;
-    padding: 0.2em 0.6em;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-    position: absolute;
-    top: 100%;
-    transform: translate(-50%, -50%);
-}
-
-#button:hover{
-  background: white;
-  color: black;
-  font-weight: bolder;
-  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
-  text-shadow: none;
 }
